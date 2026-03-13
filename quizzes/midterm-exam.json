@@ -1,0 +1,368 @@
+{
+  "slug": "midterm-exam",
+  "title": "Midterm Exam",
+  "group": "Exams",
+  "points": 50,
+  "questions": [
+    {
+      "name": "Semantic HTML",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Why is semantic HTML valuable?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "semantic-html_a1",
+          "text": "It reduces the need for internet access",
+          "html": "<p>It reduces the need for internet access</p>",
+          "weight": 0
+        },
+        {
+          "id": "semantic-html_a2",
+          "text": "It communicates meaning to browsers, assistive tech, and developers",
+          "html": "<p>It communicates meaning to browsers, assistive tech, and developers</p>",
+          "weight": 100
+        },
+        {
+          "id": "semantic-html_a3",
+          "text": "It replaces CSS entirely",
+          "html": "<p>It replaces CSS entirely</p>",
+          "weight": 0
+        },
+        {
+          "id": "semantic-html_a4",
+          "text": "It stores user settings",
+          "html": "<p>It stores user settings</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Mobile first",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A mobile-first workflow usually means you begin styling for:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "mobile-first_a1",
+          "text": "Large desktop screens first",
+          "html": "<p>Large desktop screens first</p>",
+          "weight": 0
+        },
+        {
+          "id": "mobile-first_a2",
+          "text": "Printed documents first",
+          "html": "<p>Printed documents first</p>",
+          "weight": 0
+        },
+        {
+          "id": "mobile-first_a3",
+          "text": "Small screens first, then enhance upward",
+          "html": "<p>Small screens first, then enhance upward</p>",
+          "weight": 100
+        },
+        {
+          "id": "mobile-first_a4",
+          "text": "Only tablets",
+          "html": "<p>Only tablets</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Function purpose",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is a major advantage of using functions?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "function-purpose_a1",
+          "text": "They automatically style HTML",
+          "html": "<p>They automatically style HTML</p>",
+          "weight": 0
+        },
+        {
+          "id": "function-purpose_a2",
+          "text": "They reduce repeated logic and improve readability",
+          "html": "<p>They reduce repeated logic and improve readability</p>",
+          "weight": 100
+        },
+        {
+          "id": "function-purpose_a3",
+          "text": "They eliminate the need for variables",
+          "html": "<p>They eliminate the need for variables</p>",
+          "weight": 0
+        },
+        {
+          "id": "function-purpose_a4",
+          "text": "They guarantee fast performance",
+          "html": "<p>They guarantee fast performance</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Truthy",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which value is falsy in JavaScript?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "truthy_a1",
+          "text": "'0'",
+          "html": "<p>&#x27;0&#x27;</p>",
+          "weight": 0
+        },
+        {
+          "id": "truthy_a2",
+          "text": "[]",
+          "html": "<p>[]</p>",
+          "weight": 0
+        },
+        {
+          "id": "truthy_a3",
+          "text": "0",
+          "html": "<p>0</p>",
+          "weight": 100
+        },
+        {
+          "id": "truthy_a4",
+          "text": "{}",
+          "html": "<p>{}</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Objects",
+      "question_type": "true_false_question",
+      "question_text": "<p>Objects can contain methods as well as data properties.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "objects_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "objects_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "DOM update",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which property inserts plain text into an element without parsing HTML?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "dom-update_a1",
+          "text": "innerHTML",
+          "html": "<p>innerHTML</p>",
+          "weight": 0
+        },
+        {
+          "id": "dom-update_a2",
+          "text": "textContent",
+          "html": "<p>textContent</p>",
+          "weight": 100
+        },
+        {
+          "id": "dom-update_a3",
+          "text": "outerHTML",
+          "html": "<p>outerHTML</p>",
+          "weight": 0
+        },
+        {
+          "id": "dom-update_a4",
+          "text": "className",
+          "html": "<p>className</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Event target",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>In an event handler, event.target usually refers to:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "event-target_a1",
+          "text": "The browser window",
+          "html": "<p>The browser window</p>",
+          "weight": 0
+        },
+        {
+          "id": "event-target_a2",
+          "text": "The element that triggered the event",
+          "html": "<p>The element that triggered the event</p>",
+          "weight": 100
+        },
+        {
+          "id": "event-target_a3",
+          "text": "The stylesheet",
+          "html": "<p>The stylesheet</p>",
+          "weight": 0
+        },
+        {
+          "id": "event-target_a4",
+          "text": "The server",
+          "html": "<p>The server</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Validation",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which is the best place to pair client-side validation with clear user messaging?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "validation_a1",
+          "text": "Only after deployment",
+          "html": "<p>Only after deployment</p>",
+          "weight": 0
+        },
+        {
+          "id": "validation_a2",
+          "text": "Inside the browser interface near the field",
+          "html": "<p>Inside the browser interface near the field</p>",
+          "weight": 100
+        },
+        {
+          "id": "validation_a3",
+          "text": "Only in a README file",
+          "html": "<p>Only in a README file</p>",
+          "weight": 0
+        },
+        {
+          "id": "validation_a4",
+          "text": "Only in database logs",
+          "html": "<p>Only in database logs</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "JSON parse",
+      "question_type": "true_false_question",
+      "question_text": "<p>JSON.parse converts JSON text into a JavaScript value.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "json-parse_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "json-parse_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Array search",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which method returns the first matching element in an array?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "array-search_a1",
+          "text": "map",
+          "html": "<p>map</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-search_a2",
+          "text": "filter",
+          "html": "<p>filter</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-search_a3",
+          "text": "find",
+          "html": "<p>find</p>",
+          "weight": 100
+        },
+        {
+          "id": "array-search_a4",
+          "text": "reduce",
+          "html": "<p>reduce</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Scope",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Variables declared inside a function are generally:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "scope_a1",
+          "text": "Available everywhere",
+          "html": "<p>Available everywhere</p>",
+          "weight": 0
+        },
+        {
+          "id": "scope_a2",
+          "text": "Scoped to that function",
+          "html": "<p>Scoped to that function</p>",
+          "weight": 100
+        },
+        {
+          "id": "scope_a3",
+          "text": "Automatically saved to storage",
+          "html": "<p>Automatically saved to storage</p>",
+          "weight": 0
+        },
+        {
+          "id": "scope_a4",
+          "text": "Always constants",
+          "html": "<p>Always constants</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "GitHub workflow",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A useful GitHub habit for this course is to:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "github-workflow_a1",
+          "text": "Commit only once at the end",
+          "html": "<p>Commit only once at the end</p>",
+          "weight": 0
+        },
+        {
+          "id": "github-workflow_a2",
+          "text": "Write short, meaningful commit messages during progress",
+          "html": "<p>Write short, meaningful commit messages during progress</p>",
+          "weight": 100
+        },
+        {
+          "id": "github-workflow_a3",
+          "text": "Avoid version control for front-end code",
+          "html": "<p>Avoid version control for front-end code</p>",
+          "weight": 0
+        },
+        {
+          "id": "github-workflow_a4",
+          "text": "Rename files randomly",
+          "html": "<p>Rename files randomly</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

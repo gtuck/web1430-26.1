@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Chapter 6: The Document Object Model</title>
+<meta name="identifier" content="i69224ab5470754eb682cf084535ed87b"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<h1>Chapter 6: The Document Object Model</h1>
+<p>The chapter explains how JavaScript reads and changes a document tree and how to avoid fragile, overly-coupled page logic.</p>
+<h2>What this chapter is really about</h2>
+<p>The chapter explains how JavaScript reads and changes a document tree and how to avoid fragile, overly-coupled page logic. Rather than treating the browser like a magic box, this chapter asks students to name the moving parts, decide where responsibility belongs, and make design decisions visible in code.</p>
+<h2>Key ideas</h2>
+<p>The web is layered. Content comes first, presentation follows, behavior enhances, and data flows across boundaries. Good client-side code respects those layers instead of blurring them into one large script.</p>
+<h2>Mental model</h2>
+<p>Each page is a conversation between structure, style, state, and time. Structure gives the page meaning. Style gives it shape. State tracks what the user has done and what the application knows. Time matters because users click, type, navigate, and wait.</p>
+<h2>Working habits</h2>
+<p>Students are encouraged to experiment in small loops: change one thing, observe the result, document the reason, and commit progress in Git. The goal is not simply to make a page work; the goal is to understand why it works.</p>
+<h2>Common mistakes</h2>
+<p>Many beginners overreach too early. They add libraries before they understand the browser, hide logic in anonymous handlers, or skip naming conventions that would make the code readable later. This chapter pushes against that pattern.</p>
+<h2>Accessibility and UX note</h2>
+<p>Every technical choice has an experience consequence. Heading structure affects screen-reader navigation. Button labeling affects confidence. Error messaging affects recovery. A client-side developer is always shaping user experience, even when writing simple scripts.</p>
+<h2>Practice prompt</h2>
+<p>Open one of your existing pages or a provided course starter. Identify one part of the interface that depends on the document object model and explain what the browser needs in order to make that feature understandable and usable.</p>
+<h2>Reflection</h2>
+<p>What did you assume the browser was doing automatically that actually depends on deliberate authoring? Where can you make your intent more visible in HTML, CSS, or JavaScript?</p>
+<h2>Vocabulary</h2>
+<ul>
+<li>semantics</li>
+<li>enhancement</li>
+<li>state</li>
+<li>rendering</li>
+<li>debugging</li>
+</ul>
+<h2>Mini checklist</h2>
+<ul>
+<li>I can explain the purpose of the layer I am working in.</li>
+<li>I can name the data or state I need.</li>
+<li>I can describe how a user will experience the result.</li>
+</ul>
+</body>
+</html>

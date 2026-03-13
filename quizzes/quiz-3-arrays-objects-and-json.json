@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-3-arrays-objects-and-json",
+  "title": "Quiz 3 \u2013 Arrays, Objects, and JSON",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "Object use",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which data structure is best for a record with named properties such as title, price, and category?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "object-use_a1",
+          "text": "Array",
+          "html": "<p>Array</p>",
+          "weight": 0
+        },
+        {
+          "id": "object-use_a2",
+          "text": "Object",
+          "html": "<p>Object</p>",
+          "weight": 100
+        },
+        {
+          "id": "object-use_a3",
+          "text": "Loop",
+          "html": "<p>Loop</p>",
+          "weight": 0
+        },
+        {
+          "id": "object-use_a4",
+          "text": "Boolean",
+          "html": "<p>Boolean</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "JSON",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>JSON is best described as:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "json_a1",
+          "text": "A browser layout engine",
+          "html": "<p>A browser layout engine</p>",
+          "weight": 0
+        },
+        {
+          "id": "json_a2",
+          "text": "A text format for structured data",
+          "html": "<p>A text format for structured data</p>",
+          "weight": 100
+        },
+        {
+          "id": "json_a3",
+          "text": "A CSS preprocessor",
+          "html": "<p>A CSS preprocessor</p>",
+          "weight": 0
+        },
+        {
+          "id": "json_a4",
+          "text": "A command line shell",
+          "html": "<p>A command line shell</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Array method",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which array method creates a new array by transforming each element?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "array-method_a1",
+          "text": "forEach",
+          "html": "<p>forEach</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-method_a2",
+          "text": "map",
+          "html": "<p>map</p>",
+          "weight": 100
+        },
+        {
+          "id": "array-method_a3",
+          "text": "find",
+          "html": "<p>find</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-method_a4",
+          "text": "push",
+          "html": "<p>push</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Mutation",
+      "question_type": "true_false_question",
+      "question_text": "<p>push() changes the original array.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "mutation_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "mutation_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Property access",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which expression reads the name property from an object user?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "property-access_a1",
+          "text": "user(name)",
+          "html": "<p>user(name)</p>",
+          "weight": 0
+        },
+        {
+          "id": "property-access_a2",
+          "text": "user.name",
+          "html": "<p>user.name</p>",
+          "weight": 100
+        },
+        {
+          "id": "property-access_a3",
+          "text": "name.user",
+          "html": "<p>name.user</p>",
+          "weight": 0
+        },
+        {
+          "id": "property-access_a4",
+          "text": "user->name",
+          "html": "<p>user-&gt;name</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

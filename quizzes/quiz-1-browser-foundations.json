@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-1-browser-foundations",
+  "title": "Quiz 1 \u2013 Browser Foundations",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "HTML role",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is HTML primarily responsible for in a web page? </p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "html-role_a1",
+          "text": "Structure and meaning",
+          "html": "<p>Structure and meaning</p>",
+          "weight": 100
+        },
+        {
+          "id": "html-role_a2",
+          "text": "Presentation and layout",
+          "html": "<p>Presentation and layout</p>",
+          "weight": 0
+        },
+        {
+          "id": "html-role_a3",
+          "text": "Server storage",
+          "html": "<p>Server storage</p>",
+          "weight": 0
+        },
+        {
+          "id": "html-role_a4",
+          "text": "Network routing",
+          "html": "<p>Network routing</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "CSS role",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which technology is most directly responsible for visual presentation in the browser?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "css-role_a1",
+          "text": "Node.js",
+          "html": "<p>Node.js</p>",
+          "weight": 0
+        },
+        {
+          "id": "css-role_a2",
+          "text": "CSS",
+          "html": "<p>CSS</p>",
+          "weight": 100
+        },
+        {
+          "id": "css-role_a3",
+          "text": "DNS",
+          "html": "<p>DNS</p>",
+          "weight": 0
+        },
+        {
+          "id": "css-role_a4",
+          "text": "JSON",
+          "html": "<p>JSON</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Progressive enhancement",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Progressive enhancement starts by building for which layer first?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "progressive-enhancement_a1",
+          "text": "Motion design",
+          "html": "<p>Motion design</p>",
+          "weight": 0
+        },
+        {
+          "id": "progressive-enhancement_a2",
+          "text": "Content and core functionality",
+          "html": "<p>Content and core functionality</p>",
+          "weight": 100
+        },
+        {
+          "id": "progressive-enhancement_a3",
+          "text": "Framework tooling",
+          "html": "<p>Framework tooling</p>",
+          "weight": 0
+        },
+        {
+          "id": "progressive-enhancement_a4",
+          "text": "Animation libraries",
+          "html": "<p>Animation libraries</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "DOM generated",
+      "question_type": "true_false_question",
+      "question_text": "<p>The browser creates a document object model from HTML that JavaScript can manipulate.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "dom-generated_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "dom-generated_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Devtools",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which browser feature is most useful for inspecting live HTML and CSS?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "devtools_a1",
+          "text": "Bookmarks",
+          "html": "<p>Bookmarks</p>",
+          "weight": 0
+        },
+        {
+          "id": "devtools_a2",
+          "text": "Developer tools",
+          "html": "<p>Developer tools</p>",
+          "weight": 100
+        },
+        {
+          "id": "devtools_a3",
+          "text": "Print preview",
+          "html": "<p>Print preview</p>",
+          "weight": 0
+        },
+        {
+          "id": "devtools_a4",
+          "text": "Password manager",
+          "html": "<p>Password manager</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

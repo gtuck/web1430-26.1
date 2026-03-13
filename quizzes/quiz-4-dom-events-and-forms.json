@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-4-dom-events-and-forms",
+  "title": "Quiz 4 \u2013 DOM, Events, and Forms",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "Selector",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which DOM method returns the first element that matches a CSS selector?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "selector_a1",
+          "text": "getElementByStyle",
+          "html": "<p>getElementByStyle</p>",
+          "weight": 0
+        },
+        {
+          "id": "selector_a2",
+          "text": "querySelector",
+          "html": "<p>querySelector</p>",
+          "weight": 100
+        },
+        {
+          "id": "selector_a3",
+          "text": "firstElement",
+          "html": "<p>firstElement</p>",
+          "weight": 0
+        },
+        {
+          "id": "selector_a4",
+          "text": "matchNode",
+          "html": "<p>matchNode</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Event listener",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which method attaches a handler for a click event?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "event-listener_a1",
+          "text": "listen('click')",
+          "html": "<p>listen(&#x27;click&#x27;)</p>",
+          "weight": 0
+        },
+        {
+          "id": "event-listener_a2",
+          "text": "onClick()",
+          "html": "<p>onClick()</p>",
+          "weight": 0
+        },
+        {
+          "id": "event-listener_a3",
+          "text": "addEventListener('click', handler)",
+          "html": "<p>addEventListener(&#x27;click&#x27;, handler)</p>",
+          "weight": 100
+        },
+        {
+          "id": "event-listener_a4",
+          "text": "bindClick(handler)",
+          "html": "<p>bindClick(handler)</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Accessible feedback",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which form pattern improves accessibility?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "accessible-feedback_a1",
+          "text": "Only color-based errors",
+          "html": "<p>Only color-based errors</p>",
+          "weight": 0
+        },
+        {
+          "id": "accessible-feedback_a2",
+          "text": "Clear labels and error text tied to fields",
+          "html": "<p>Clear labels and error text tied to fields</p>",
+          "weight": 100
+        },
+        {
+          "id": "accessible-feedback_a3",
+          "text": "Placeholder text instead of labels",
+          "html": "<p>Placeholder text instead of labels</p>",
+          "weight": 0
+        },
+        {
+          "id": "accessible-feedback_a4",
+          "text": "Hidden submit buttons",
+          "html": "<p>Hidden submit buttons</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Prevent default",
+      "question_type": "true_false_question",
+      "question_text": "<p>event.preventDefault() can stop a form from submitting immediately.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "prevent-default_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "prevent-default_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "State source",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>For many forms, the most trustworthy source of current user input is:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "state-source_a1",
+          "text": "A comment in the code",
+          "html": "<p>A comment in the code</p>",
+          "weight": 0
+        },
+        {
+          "id": "state-source_a2",
+          "text": "The value of the form control",
+          "html": "<p>The value of the form control</p>",
+          "weight": 100
+        },
+        {
+          "id": "state-source_a3",
+          "text": "A hard-coded default",
+          "html": "<p>A hard-coded default</p>",
+          "weight": 0
+        },
+        {
+          "id": "state-source_a4",
+          "text": "The page title",
+          "html": "<p>The page title</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

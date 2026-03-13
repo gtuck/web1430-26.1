@@ -1,0 +1,42 @@
+# WEB 1430: Client-Side Web Development
+
+This repository contains a fully rebuilt, online-first **WEB 1430** course package designed for Canvas and a GitHub-based workflow.
+
+## Included
+
+- original textbook with 12 chapters
+- weekly lecture notes and module overviews
+- labs
+- assignments
+- projects
+- quizzes and exams in Canvas-compatible QTI/Common Cartridge structure
+- Canvas course export package (`canvas/WEB1430-Canvas-Export.imscc`)
+- rebuild script in `scripts/build_canvas_package.py`
+
+## Repository structure
+
+- `course/` – syllabus, schedule, outcomes, grading
+- `textbook/` – original textbook chapters
+- `lectures/` – weekly lecture notes
+- `modules/` – weekly overview pages
+- `labs/` – lab handouts
+- `assignments/` – assignment briefs
+- `projects/` – project briefs
+- `quizzes/` – source JSON for quiz content
+- `canvas/` – exploded package and importable IMSCC
+- `scripts/` – build script
+
+## Suggested GitHub publishing steps
+
+```bash
+git init
+git branch -M main
+git remote add origin git@github.com:gtuck/web1430-new.git
+git add .
+git commit -m "Initial WEB1430 course build"
+git push -u origin main
+```
+
+## Canvas import
+
+In Canvas, go to **Settings → Import Course Content** and import the file in `canvas/WEB1430-Canvas-Export.imscc`.

@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-7-modules-and-vue-basics",
+  "title": "Quiz 7 \u2013 Modules and Vue Basics",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "ES modules",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What does export do in an ES module?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "es-modules_a1",
+          "text": "Deletes a function",
+          "html": "<p>Deletes a function</p>",
+          "weight": 0
+        },
+        {
+          "id": "es-modules_a2",
+          "text": "Makes code available to other modules",
+          "html": "<p>Makes code available to other modules</p>",
+          "weight": 100
+        },
+        {
+          "id": "es-modules_a3",
+          "text": "Compiles CSS",
+          "html": "<p>Compiles CSS</p>",
+          "weight": 0
+        },
+        {
+          "id": "es-modules_a4",
+          "text": "Creates a DOM node",
+          "html": "<p>Creates a DOM node</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Vite",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Why is Vite helpful for beginners?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "vite_a1",
+          "text": "It replaces HTML",
+          "html": "<p>It replaces HTML</p>",
+          "weight": 0
+        },
+        {
+          "id": "vite_a2",
+          "text": "It provides a modern development workflow with quick feedback",
+          "html": "<p>It provides a modern development workflow with quick feedback</p>",
+          "weight": 100
+        },
+        {
+          "id": "vite_a3",
+          "text": "It stores passwords",
+          "html": "<p>It stores passwords</p>",
+          "weight": 0
+        },
+        {
+          "id": "vite_a4",
+          "text": "It removes the need for JavaScript",
+          "html": "<p>It removes the need for JavaScript</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Vue component",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A Vue component is best thought of as:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "vue-component_a1",
+          "text": "A random folder",
+          "html": "<p>A random folder</p>",
+          "weight": 0
+        },
+        {
+          "id": "vue-component_a2",
+          "text": "A reusable, state-aware interface building block",
+          "html": "<p>A reusable, state-aware interface building block</p>",
+          "weight": 100
+        },
+        {
+          "id": "vue-component_a3",
+          "text": "A database table",
+          "html": "<p>A database table</p>",
+          "weight": 0
+        },
+        {
+          "id": "vue-component_a4",
+          "text": "A network cable",
+          "html": "<p>A network cable</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Reactive state",
+      "question_type": "true_false_question",
+      "question_text": "<p>When reactive state changes, Vue can update the view automatically.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "reactive-state_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "reactive-state_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Props",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Props are commonly used to:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "props_a1",
+          "text": "Pass data into a component",
+          "html": "<p>Pass data into a component</p>",
+          "weight": 100
+        },
+        {
+          "id": "props_a2",
+          "text": "Store server secrets",
+          "html": "<p>Store server secrets</p>",
+          "weight": 0
+        },
+        {
+          "id": "props_a3",
+          "text": "Write CSS media queries",
+          "html": "<p>Write CSS media queries</p>",
+          "weight": 0
+        },
+        {
+          "id": "props_a4",
+          "text": "Create Git commits",
+          "html": "<p>Create Git commits</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

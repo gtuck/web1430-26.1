@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-2-javascript-fundamentals",
+  "title": "Quiz 2 \u2013 JavaScript Fundamentals",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "Const",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>When should const usually be preferred?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "const_a1",
+          "text": "When a binding should not be reassigned",
+          "html": "<p>When a binding should not be reassigned</p>",
+          "weight": 100
+        },
+        {
+          "id": "const_a2",
+          "text": "When a variable must be global",
+          "html": "<p>When a variable must be global</p>",
+          "weight": 0
+        },
+        {
+          "id": "const_a3",
+          "text": "When a value is always a string",
+          "html": "<p>When a value is always a string</p>",
+          "weight": 0
+        },
+        {
+          "id": "const_a4",
+          "text": "When code must run on a server",
+          "html": "<p>When code must run on a server</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Equality",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which operator checks strict equality in JavaScript?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "equality_a1",
+          "text": "=",
+          "html": "<p>=</p>",
+          "weight": 0
+        },
+        {
+          "id": "equality_a2",
+          "text": "==",
+          "html": "<p>==</p>",
+          "weight": 0
+        },
+        {
+          "id": "equality_a3",
+          "text": "===",
+          "html": "<p>===</p>",
+          "weight": 100
+        },
+        {
+          "id": "equality_a4",
+          "text": "=>",
+          "html": "<p>=&gt;</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Template literal",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which syntax supports embedded expressions in strings?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "template-literal_a1",
+          "text": "'single quotes'",
+          "html": "<p>&#x27;single quotes&#x27;</p>",
+          "weight": 0
+        },
+        {
+          "id": "template-literal_a2",
+          "text": "\"double quotes\"",
+          "html": "<p>&quot;double quotes&quot;</p>",
+          "weight": 0
+        },
+        {
+          "id": "template-literal_a3",
+          "text": "`backticks`",
+          "html": "<p>`backticks`</p>",
+          "weight": 100
+        },
+        {
+          "id": "template-literal_a4",
+          "text": "<tag>",
+          "html": "<p>&lt;tag&gt;</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Array access",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>How do you access the first item in an array named colors?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "array-access_a1",
+          "text": "colors(0)",
+          "html": "<p>colors(0)</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-access_a2",
+          "text": "colors[0]",
+          "html": "<p>colors[0]</p>",
+          "weight": 100
+        },
+        {
+          "id": "array-access_a3",
+          "text": "colors.first",
+          "html": "<p>colors.first</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-access_a4",
+          "text": "colors{0}",
+          "html": "<p>colors{0}</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Console",
+      "question_type": "true_false_question",
+      "question_text": "<p>console.log() is useful during debugging because it lets you inspect values while code runs.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "console_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "console_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}

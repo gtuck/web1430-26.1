@@ -1,0 +1,156 @@
+{
+  "slug": "quiz-6-storage-and-state",
+  "title": "Quiz 6 \u2013 Storage and State",
+  "group": "Quizzes",
+  "points": 10,
+  "questions": [
+    {
+      "name": "localStorage",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>localStorage is best used for:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "localstorage_a1",
+          "text": "Large relational databases",
+          "html": "<p>Large relational databases</p>",
+          "weight": 0
+        },
+        {
+          "id": "localstorage_a2",
+          "text": "Small client-side preferences or saved interface state",
+          "html": "<p>Small client-side preferences or saved interface state</p>",
+          "weight": 100
+        },
+        {
+          "id": "localstorage_a3",
+          "text": "Server-side authentication logic",
+          "html": "<p>Server-side authentication logic</p>",
+          "weight": 0
+        },
+        {
+          "id": "localstorage_a4",
+          "text": "Compiling JavaScript",
+          "html": "<p>Compiling JavaScript</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Persistence",
+      "question_type": "true_false_question",
+      "question_text": "<p>Data in localStorage usually remains after the browser tab is closed.</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "persistence_true",
+          "text": "True",
+          "html": "<p>True</p>",
+          "weight": 100
+        },
+        {
+          "id": "persistence_false",
+          "text": "False",
+          "html": "<p>False</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "sessionStorage",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>sessionStorage differs from localStorage because it is usually scoped to:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "sessionstorage_a1",
+          "text": "The current browsing session",
+          "html": "<p>The current browsing session</p>",
+          "weight": 100
+        },
+        {
+          "id": "sessionstorage_a2",
+          "text": "The entire internet",
+          "html": "<p>The entire internet</p>",
+          "weight": 0
+        },
+        {
+          "id": "sessionstorage_a3",
+          "text": "The operating system user account",
+          "html": "<p>The operating system user account</p>",
+          "weight": 0
+        },
+        {
+          "id": "sessionstorage_a4",
+          "text": "The Git branch",
+          "html": "<p>The Git branch</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "State model",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>In UI development, state is best described as:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "state-model_a1",
+          "text": "The postal location of a user",
+          "html": "<p>The postal location of a user</p>",
+          "weight": 0
+        },
+        {
+          "id": "state-model_a2",
+          "text": "The current data that determines what the interface shows",
+          "html": "<p>The current data that determines what the interface shows</p>",
+          "weight": 100
+        },
+        {
+          "id": "state-model_a3",
+          "text": "Only CSS colors",
+          "html": "<p>Only CSS colors</p>",
+          "weight": 0
+        },
+        {
+          "id": "state-model_a4",
+          "text": "The browser vendor",
+          "html": "<p>The browser vendor</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "Serialization",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which function converts a JavaScript object to JSON text for storage?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "serialization_a1",
+          "text": "JSON.parse",
+          "html": "<p>JSON.parse</p>",
+          "weight": 0
+        },
+        {
+          "id": "serialization_a2",
+          "text": "JSON.stringify",
+          "html": "<p>JSON.stringify</p>",
+          "weight": 100
+        },
+        {
+          "id": "serialization_a3",
+          "text": "Object.freeze",
+          "html": "<p>Object.freeze</p>",
+          "weight": 0
+        },
+        {
+          "id": "serialization_a4",
+          "text": "Array.join",
+          "html": "<p>Array.join</p>",
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}
