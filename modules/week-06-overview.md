@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Selecting, Creating, Updating, and Removing Elements](../lectures/week-06-lecture.md)
+- [Chapter 6: The Document Object Model](../textbook/chapters/chapter-06-the-document-object-model.md)
+- **Time estimate:** 10–12 hours (reading, lab, Assignment 3)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

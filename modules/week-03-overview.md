@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Variables, Types, Operators, and Debugging](../lectures/week-03-lecture.md)
+- [Chapter 3: JavaScript Syntax, Values, and Expressions](../textbook/chapters/chapter-03-javascript-syntax-values-and-expressions.md)
+- **Time estimate:** 8–10 hours (reading, lab, quiz)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

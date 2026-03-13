@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "script-blocking",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer places <code>&lt;script src=\"app.js\"&gt;&lt;/script&gt;</code> inside <code>&lt;head&gt;</code> without any attributes. What is the most likely consequence?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "script-blocking_a1",
+          "text": "HTML parsing pauses until the script downloads and executes, delaying visible content",
+          "html": "<p>HTML parsing pauses until the script downloads and executes, delaying visible content</p>",
+          "weight": 100
+        },
+        {
+          "id": "script-blocking_a2",
+          "text": "The script is silently ignored",
+          "html": "<p>The script is silently ignored</p>",
+          "weight": 0
+        },
+        {
+          "id": "script-blocking_a3",
+          "text": "The script runs after all images load",
+          "html": "<p>The script runs after all images load</p>",
+          "weight": 0
+        },
+        {
+          "id": "script-blocking_a4",
+          "text": "The script runs in parallel without any delay",
+          "html": "<p>The script runs in parallel without any delay</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "elements-vs-source",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A student opens DevTools &rarr; Elements panel and sees a <code>&lt;p&gt;</code> element that does not exist in their HTML source file. What is the most likely explanation?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "elements-vs-source_a1",
+          "text": "JavaScript added the element to the DOM after the page loaded",
+          "html": "<p>JavaScript added the element to the DOM after the page loaded</p>",
+          "weight": 100
+        },
+        {
+          "id": "elements-vs-source_a2",
+          "text": "The browser downloaded a different file",
+          "html": "<p>The browser downloaded a different file</p>",
+          "weight": 0
+        },
+        {
+          "id": "elements-vs-source_a3",
+          "text": "The HTML validator removed it",
+          "html": "<p>The HTML validator removed it</p>",
+          "weight": 0
+        },
+        {
+          "id": "elements-vs-source_a4",
+          "text": "The p tag is hidden by CSS",
+          "html": "<p>The p tag is hidden by CSS</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "coercion-output",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What does <code>console.log(1 + '2')</code> output?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "coercion-output_a1",
+          "text": "'12' (string concatenation because one operand is a string)",
+          "html": "<p>&#x27;12&#x27; (string concatenation because one operand is a string)</p>",
+          "weight": 100
+        },
+        {
+          "id": "coercion-output_a2",
+          "text": "3",
+          "html": "<p>3</p>",
+          "weight": 0
+        },
+        {
+          "id": "coercion-output_a3",
+          "text": "NaN",
+          "html": "<p>NaN</p>",
+          "weight": 0
+        },
+        {
+          "id": "coercion-output_a4",
+          "text": "A TypeError is thrown",
+          "html": "<p>A TypeError is thrown</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "loose-equality-risk",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer writes <code>if (userAge == '28')</code>. What is the potential problem with this comparison?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "loose-equality-risk_a1",
+          "text": "It uses type coercion — == converts types before comparing, which can produce unexpected matches",
+          "html": "<p>It uses type coercion &mdash; == converts types before comparing, which can produce unexpected matches</p>",
+          "weight": 100
+        },
+        {
+          "id": "loose-equality-risk_a2",
+          "text": "It always returns false because the types are different",
+          "html": "<p>It always returns false because the types are different</p>",
+          "weight": 0
+        },
+        {
+          "id": "loose-equality-risk_a3",
+          "text": "The if statement requires braces to work correctly",
+          "html": "<p>The if statement requires braces to work correctly</p>",
+          "weight": 0
+        },
+        {
+          "id": "loose-equality-risk_a4",
+          "text": "This will throw a ReferenceError at runtime",
+          "html": "<p>This will throw a ReferenceError at runtime</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

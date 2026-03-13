@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Collections, Objects, Methods, and JSON Thinking](../lectures/week-05-lecture.md)
+- [Chapter 5: Modeling Information in JavaScript](../textbook/chapters/chapter-05-modeling-information-in-javascript.md)
+- **Time estimate:** 10–12 hours (reading, lab, quiz, Project 1 Proposal)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

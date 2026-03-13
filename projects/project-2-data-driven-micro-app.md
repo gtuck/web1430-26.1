@@ -16,16 +16,23 @@ This project is the culmination of the async and state management half of the co
 
 ## Scenario
 
-You are building a small public-facing tool for an audience you define. The tool must be genuinely useful for that audience — not just a tech demo. Think about what problem it solves, who it is for, and what they would need to do quickly.
+You are building a small public-facing tool for a specific audience. Start by identifying a problem worth solving — then find the data that solves it. A tool built backward from an API tends to feel like a tech demo; a tool built from a real need tends to feel like a product.
 
-**Examples of appropriate scope:**
-- A book finder that searches Open Library and lets users save favorites
-- A country explorer that loads country data and lets users filter by region or population
-- A weather snapshot for a single location using Open-Meteo
-- A NASA photo-of-the-day viewer with a saved history
-- A dog breed explorer with a filtered gallery and saved preferences
+**Start here — three questions before you write any code:**
+1. Who is this for? (a specific type of person, not "everyone")
+2. What do they need to do, and why is it currently inconvenient?
+3. What data would make that task faster or easier?
 
-Choose a public API that does not require payment information for access.
+Once you can answer those three questions, find a public API that provides the data you need.
+
+**Examples that start from the problem:**
+- *College students planning meals on a budget* → a recipe finder filtered by ingredient and cost (using TheMealDB or Spoonacular free tier)
+- *Someone curious about a country before traveling* → a country snapshot with population, currency, and time zone (using REST Countries)
+- *A space enthusiast wanting a daily photo* → a NASA APOD viewer with a saved personal gallery (using NASA Open APIs)
+- *A reader managing a reading list* → a book search with saved favorites (using Open Library)
+- *A dog owner comparing breeds* → a filtered gallery with saved preferences (using Dog CEO API)
+
+Notice that the problem comes first in every example. Choose a public API that does not require payment information for access.
 
 ---
 
@@ -33,13 +40,15 @@ Choose a public API that does not require payment information for access.
 
 **Due:** End of Week 10
 
-Submit `projects/project-2/proposal.md` containing:
+Submit `projects/project-2/proposal.md` containing these sections **in this order**:
 
-1. **Problem statement:** Who is this for and what does it help them do?
-2. **API:** Which API will you use? Paste the endpoint URL. Paste one example of the raw JSON response (or a relevant excerpt).
+1. **Problem statement:** Who specifically is this for? What task does the tool help them complete? Why is that task currently inconvenient without this tool?
+2. **API:** Which API provides the data needed to solve that problem? Paste the endpoint URL you will use. Paste one example of the raw JSON response (or a relevant excerpt).
 3. **Data model:** What does one normalized item look like as a JavaScript object? List each property, its type, and where it comes from in the raw API response.
 4. **UI sketch:** A wireframe showing the layout of the loaded state, the loading state, and the error state.
 5. **localStorage plan:** What preferences or data will you persist? What is the key name and what does the stored value look like?
+
+The proposal will be reviewed against the problem statement first. If the problem statement is vague ("users can search for things"), the proposal will be returned for revision before you build.
 
 ---
 

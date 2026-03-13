@@ -46,6 +46,18 @@ Students maintain a public or instructor-shared GitHub repository for labs, assi
 - Midweek: lecture notes, reading, and lab work
 - Sunday: major weekly due date window
 
+## Lecture delivery
+
+Weekly lectures are published as written notes in Canvas each week. Each lecture file covers the week's core concepts with code examples, a demo walkthrough, and a practice prompt. Lectures are designed to be read alongside the corresponding textbook chapter — the chapter provides conceptual grounding and the lecture provides worked examples and common mistakes. Both are required; neither alone is sufficient.
+
+## Exams
+
+**Midterm Exam** — administered at the end of Week 8. Covers Weeks 01–07 (browser fundamentals, HTML/CSS, JavaScript syntax, control flow, data modeling, DOM, events, and forms). Format: multiple-choice and true/false questions in Canvas, timed at 60 minutes. Open notes, closed collaboration.
+
+**Final Exam** — administered during Week 15. Cumulative, covering Weeks 01–14. Weighted toward the second half of the course (Weeks 09–14: async/Fetch, storage, modules, Vue). Format: multiple-choice and true/false questions in Canvas, timed at 90 minutes. Open notes, closed collaboration. The Final Exam counts for approximately two-thirds of the 15% exam credit; the Midterm counts for one-third.
+
+Both exams are designed to confirm understanding of concepts introduced in lectures and textbook chapters. They complement — but do not replace — the applied skills demonstrated in labs, assignments, and projects.
+
 ## Accessibility and inclusion
 
 Course materials are designed for keyboard access, meaningful headings, readable contrast, and clear instructions. Students are encouraged to use accommodations and communicate early.

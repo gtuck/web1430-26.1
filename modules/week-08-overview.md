@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Refactoring, Reuse, and Midterm Review](../lectures/week-08-lecture.md)
+- Review Chapters 1–7 for the Midterm Exam
+- **Time estimate:** 8–10 hours (studio, midterm exam, Project 1 final submission)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

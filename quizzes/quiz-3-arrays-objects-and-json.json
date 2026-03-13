@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "map-vs-filter",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Given <code>const prices = [10, 25, 5]</code>, which expression produces <code>[20, 50, 10]</code>?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "map-vs-filter_a1",
+          "text": "prices.map(p => p * 2)",
+          "html": "<p>prices.map(p =&gt; p * 2)</p>",
+          "weight": 100
+        },
+        {
+          "id": "map-vs-filter_a2",
+          "text": "prices.filter(p => p * 2)",
+          "html": "<p>prices.filter(p =&gt; p * 2)</p>",
+          "weight": 0
+        },
+        {
+          "id": "map-vs-filter_a3",
+          "text": "prices.forEach(p => p * 2)",
+          "html": "<p>prices.forEach(p =&gt; p * 2)</p>",
+          "weight": 0
+        },
+        {
+          "id": "map-vs-filter_a4",
+          "text": "prices.find(p => p * 2)",
+          "html": "<p>prices.find(p =&gt; p * 2)</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "filter-empty-result",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What does <code>.filter()</code> return when no elements match the condition?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "filter-empty-result_a1",
+          "text": "An empty array []",
+          "html": "<p>An empty array []</p>",
+          "weight": 100
+        },
+        {
+          "id": "filter-empty-result_a2",
+          "text": "null",
+          "html": "<p>null</p>",
+          "weight": 0
+        },
+        {
+          "id": "filter-empty-result_a3",
+          "text": "undefined",
+          "html": "<p>undefined</p>",
+          "weight": 0
+        },
+        {
+          "id": "filter-empty-result_a4",
+          "text": "false",
+          "html": "<p>false</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

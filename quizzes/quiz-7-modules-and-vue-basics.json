@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "ref-dot-value",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>In a Vue <code>&lt;script setup&gt;</code> component, a developer declares <code>const count = ref(0)</code> but writes <code>count = count + 1</code> in a click handler. What is the problem?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "ref-dot-value_a1",
+          "text": "ref values must be read and updated through .value — the correct expression is count.value = count.value + 1",
+          "html": "<p>ref values must be read and updated through .value — the correct expression is count.value = count.value + 1</p>",
+          "weight": 100
+        },
+        {
+          "id": "ref-dot-value_a2",
+          "text": "ref() is not available inside script setup",
+          "html": "<p>ref() is not available inside script setup</p>",
+          "weight": 0
+        },
+        {
+          "id": "ref-dot-value_a3",
+          "text": "count must be declared with let, not const",
+          "html": "<p>count must be declared with let, not const</p>",
+          "weight": 0
+        },
+        {
+          "id": "ref-dot-value_a4",
+          "text": "The click handler must use an arrow function for ref to work",
+          "html": "<p>The click handler must use an arrow function for ref to work</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "named-export-import",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A file exports <code>export function formatPrice(n) { ... }</code>. Which import statement correctly brings it into another file?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "named-export-import_a1",
+          "text": "import { formatPrice } from './utils.js'",
+          "html": "<p>import { formatPrice } from './utils.js'</p>",
+          "weight": 100
+        },
+        {
+          "id": "named-export-import_a2",
+          "text": "import formatPrice from './utils.js'",
+          "html": "<p>import formatPrice from './utils.js'</p>",
+          "weight": 0
+        },
+        {
+          "id": "named-export-import_a3",
+          "text": "import * formatPrice from './utils.js'",
+          "html": "<p>import * formatPrice from './utils.js'</p>",
+          "weight": 0
+        },
+        {
+          "id": "named-export-import_a4",
+          "text": "require('./utils.js').formatPrice",
+          "html": "<p>require('./utils.js').formatPrice</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

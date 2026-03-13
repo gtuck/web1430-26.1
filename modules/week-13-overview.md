@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Component Communication, Reactive Forms, and Derived State](../lectures/week-13-lecture.md)
+- [Chapter 12: Introductory Component-Based Development](../textbook/chapters/chapter-12-introductory-component-based-development.md) (continued)
+- **Time estimate:** 10–12 hours (reading, lab, Assignment 6)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

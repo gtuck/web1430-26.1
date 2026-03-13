@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Conditionals, Loops, Functions, Scope, and Parameters](../lectures/week-04-lecture.md)
+- [Chapter 4: Decisions, Loops, and Reusable Logic](../textbook/chapters/chapter-04-decisions-loops-and-reusable-logic.md)
+- **Time estimate:** 10–12 hours (reading, lab, Assignment 2)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "lighthouse-accessibility-failure",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A Lighthouse audit gives a page an Accessibility score of 62. The most likely cause listed in the report is:</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "lighthouse-accessibility-failure_a1",
+          "text": "Form inputs are missing associated label elements, or images are missing alt attributes — these are the most common Lighthouse accessibility failures",
+          "html": "<p>Form inputs are missing associated label elements, or images are missing alt attributes — these are the most common Lighthouse accessibility failures</p>",
+          "weight": 100
+        },
+        {
+          "id": "lighthouse-accessibility-failure_a2",
+          "text": "The page uses too many CSS custom properties",
+          "html": "<p>The page uses too many CSS custom properties</p>",
+          "weight": 0
+        },
+        {
+          "id": "lighthouse-accessibility-failure_a3",
+          "text": "JavaScript runs before the DOM is ready",
+          "html": "<p>JavaScript runs before the DOM is ready</p>",
+          "weight": 0
+        },
+        {
+          "id": "lighthouse-accessibility-failure_a4",
+          "text": "The site is not deployed over HTTPS",
+          "html": "<p>The site is not deployed over HTTPS</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "vite-github-pages-base",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer deploys a Vite app to GitHub Pages at <code>https://user.github.io/my-repo/</code>. Assets load on the homepage but all images and scripts are missing on sub-pages. What is the most likely fix?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "vite-github-pages-base_a1",
+          "text": "Add base: '/my-repo/' to vite.config.js — without it, Vite generates absolute paths from / which break under a subdirectory",
+          "html": "<p>Add base: '/my-repo/' to vite.config.js — without it, Vite generates absolute paths from / which break under a subdirectory</p>",
+          "weight": 100
+        },
+        {
+          "id": "vite-github-pages-base_a2",
+          "text": "Delete the dist/ folder and rebuild",
+          "html": "<p>Delete the dist/ folder and rebuild</p>",
+          "weight": 0
+        },
+        {
+          "id": "vite-github-pages-base_a3",
+          "text": "Change all import statements to use http:// URLs",
+          "html": "<p>Change all import statements to use http:// URLs</p>",
+          "weight": 0
+        },
+        {
+          "id": "vite-github-pages-base_a4",
+          "text": "Enable HTTPS in the GitHub repository settings",
+          "html": "<p>Enable HTTPS in the GitHub repository settings</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

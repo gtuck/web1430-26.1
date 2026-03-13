@@ -351,6 +351,102 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "async-state-machine",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A fetch function renders new content but the loading indicator never disappears after the request completes, even when it succeeds. Where should the code that hides the loading indicator be placed?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "async-state-machine_a1",
+          "text": "In a finally block — finally runs whether the request succeeds or fails, ensuring the loading state is always cleared",
+          "html": "<p>In a finally block — finally runs whether the request succeeds or fails, ensuring the loading state is always cleared</p>",
+          "weight": 100
+        },
+        {
+          "id": "async-state-machine_a2",
+          "text": "In the catch block only",
+          "html": "<p>In the catch block only</p>",
+          "weight": 0
+        },
+        {
+          "id": "async-state-machine_a3",
+          "text": "Before the await fetch() call",
+          "html": "<p>Before the await fetch() call</p>",
+          "weight": 0
+        },
+        {
+          "id": "async-state-machine_a4",
+          "text": "In the DOMContentLoaded event listener",
+          "html": "<p>In the DOMContentLoaded event listener</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "module-dependency-direction",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>In a modular Vite project, <code>api.js</code> contains a function that calls <code>document.getElementById('results')</code>. What design rule does this violate?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "module-dependency-direction_a1",
+          "text": "api.js should have no DOM access — it is responsible for network requests only; DOM manipulation belongs in render.js",
+          "html": "<p>api.js should have no DOM access — it is responsible for network requests only; DOM manipulation belongs in render.js</p>",
+          "weight": 100
+        },
+        {
+          "id": "module-dependency-direction_a2",
+          "text": "api.js functions must be async, and getElementById is synchronous",
+          "html": "<p>api.js functions must be async, and getElementById is synchronous</p>",
+          "weight": 0
+        },
+        {
+          "id": "module-dependency-direction_a3",
+          "text": "getElementById can only be called from main.js",
+          "html": "<p>getElementById can only be called from main.js</p>",
+          "weight": 0
+        },
+        {
+          "id": "module-dependency-direction_a4",
+          "text": "This is acceptable as long as api.js does not also use localStorage",
+          "html": "<p>This is acceptable as long as api.js does not also use localStorage</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "vue-props-direction",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A child Vue component needs to tell its parent that a button was clicked. Which pattern should the component use?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "vue-props-direction_a1",
+          "text": "Emit a custom event with defineEmits and $emit — data flows up via events, not by directly modifying the parent's data",
+          "html": "<p>Emit a custom event with defineEmits and $emit — data flows up via events, not by directly modifying the parent's data</p>",
+          "weight": 100
+        },
+        {
+          "id": "vue-props-direction_a2",
+          "text": "Directly modify the prop passed from the parent",
+          "html": "<p>Directly modify the prop passed from the parent</p>",
+          "weight": 0
+        },
+        {
+          "id": "vue-props-direction_a3",
+          "text": "Use localStorage to communicate between components",
+          "html": "<p>Use localStorage to communicate between components</p>",
+          "weight": 0
+        },
+        {
+          "id": "vue-props-direction_a4",
+          "text": "Call a function on the parent component using document.querySelector",
+          "html": "<p>Call a function on the parent component using document.querySelector</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

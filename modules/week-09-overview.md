@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Promises, Fetch, Async/Await, and Failure States](../lectures/week-09-lecture.md)
+- [Chapter 9: Fetch, JSON, and Remote Data](../textbook/chapters/chapter-09-fetch-json-and-remote-data.md)
+- **Time estimate:** 10–12 hours (reading, lab, quiz, Assignment 4)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

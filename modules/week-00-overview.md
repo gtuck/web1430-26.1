@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: Online Learning, Canvas, GitHub, and the Course Toolchain](../lectures/week-00-lecture.md)
+- No textbook chapter this week — focus is on tool setup
+- **Time estimate:** 4–6 hours (setup and orientation)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

@@ -25,3 +25,53 @@ Each folder here contains starter files for the corresponding lab. Copy the cont
 2. Read the lab instructions before opening any file
 3. TODOs and stub comments mark the parts you need to implement
 4. Do not modify provided data arrays or HTML structure unless the lab explicitly says to
+
+## Scaffolding Labs 11 and 12 (Vite + Vue)
+
+Labs 11 and 12 have no starter files — you scaffold the project yourself using Vite. Run these commands in your terminal from inside your course repository:
+
+### Lab 11
+
+```bash
+npm create vite@latest lab11 -- --template vue
+cd lab11
+npm install
+npm run dev
+```
+
+After scaffolding, clean up the default files:
+
+1. Delete `src/components/HelloWorld.vue`
+2. Replace the contents of `src/App.vue` with a minimal shell:
+   ```vue
+   <script setup></script>
+   <template>
+     <main>
+       <h1>Lab 11</h1>
+     </main>
+   </template>
+   ```
+3. Add these lines to `.gitignore` if they aren't already there:
+   ```
+   node_modules/
+   dist/
+   ```
+4. Open `http://localhost:5173` in your browser to confirm Vite is running.
+
+### Lab 12
+
+```bash
+npm create vite@latest lab12 -- --template vue
+cd lab12
+npm install
+npm run dev
+```
+
+Apply the same cleanup steps as Lab 11. Then read the Lab 12 instructions before writing any components.
+
+### Common Vite troubleshooting
+
+- **"command not found: npm"** — Node.js is not installed. Download it from nodejs.org (LTS version).
+- **Port 5173 already in use** — Another Vite dev server is running. Stop it with Ctrl+C in the other terminal, or Vite will automatically pick the next available port.
+- **Changes not showing in browser** — Vite's hot module replacement (HMR) updates automatically. If you don't see changes, check the terminal for errors.
+- **`dist/` folder appears after `npm run build`** — This is the production build output. Do not commit it; it is already in `.gitignore`.

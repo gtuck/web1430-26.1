@@ -151,6 +151,70 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "missing-ok-check",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>After <code>const res = await fetch(url)</code>, a developer immediately calls <code>const data = await res.json()</code>. What is missing from this code?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "missing-ok-check_a1",
+          "text": "A check for res.ok — a 404 or 500 response resolves the Promise but res.ok is false, and calling .json() on an error response may throw or return unexpected data",
+          "html": "<p>A check for res.ok — a 404 or 500 response resolves the Promise but res.ok is false, and calling .json() on an error response may throw or return unexpected data</p>",
+          "weight": 100
+        },
+        {
+          "id": "missing-ok-check_a2",
+          "text": "await should not be used with .json()",
+          "html": "<p>await should not be used with .json()</p>",
+          "weight": 0
+        },
+        {
+          "id": "missing-ok-check_a3",
+          "text": "fetch() already throws an error for 404 responses automatically",
+          "html": "<p>fetch() already throws an error for 404 responses automatically</p>",
+          "weight": 0
+        },
+        {
+          "id": "missing-ok-check_a4",
+          "text": "The response must be cloned before calling .json()",
+          "html": "<p>The response must be cloned before calling .json()</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "fetch-resolves-on-404",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer fetches a URL that returns a 404 status. The <code>await fetch(url)</code> call does NOT throw an error. Why?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "fetch-resolves-on-404_a1",
+          "text": "fetch() only rejects on network failures (no connection, DNS failure). HTTP error status codes like 404 resolve successfully — the developer must check res.ok",
+          "html": "<p>fetch() only rejects on network failures (no connection, DNS failure). HTTP error status codes like 404 resolve successfully — the developer must check res.ok</p>",
+          "weight": 100
+        },
+        {
+          "id": "fetch-resolves-on-404_a2",
+          "text": "404 errors are automatically retried by the browser",
+          "html": "<p>404 errors are automatically retried by the browser</p>",
+          "weight": 0
+        },
+        {
+          "id": "fetch-resolves-on-404_a3",
+          "text": "fetch() always throws for any non-200 status",
+          "html": "<p>fetch() always throws for any non-200 status</p>",
+          "weight": 0
+        },
+        {
+          "id": "fetch-resolves-on-404_a4",
+          "text": "The try/catch block suppressed the error",
+          "html": "<p>The try/catch block suppressed the error</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }

@@ -187,7 +187,7 @@ Do a manual accessibility check before submitting:
 - [ ] Tab through the entire page — every interactive element is reachable
 - [ ] Focus ring is visible on all focused elements
 - [ ] No keyboard traps (you can tab into and out of all components)
-- [ ] Test with VoiceOver (Mac: Cmd+F5) or NVDA (Windows: free download) — navigate to the main heading and through at least three interactive elements
+- [ ] Test with VoiceOver (Mac: Cmd+F5) or NVDA (Windows: free download) — navigate to the main heading and through at least three interactive elements. See the [Screen Reader Testing Guide](../course/screen-reader-testing-guide.md) for step-by-step instructions.
 - [ ] Color is not the only indicator for any state (error, active, selected)
 
 ---

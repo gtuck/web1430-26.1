@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: File Organization, ES Modules, and Build Tooling](../lectures/week-11-lecture.md)
+- [Chapter 11: Modules, npm, and Vite](../textbook/chapters/chapter-11-modules-npm-and-vite.md)
+- **Time estimate:** 10–12 hours (reading, lab, Assignment 5)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

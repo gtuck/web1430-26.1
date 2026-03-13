@@ -13,5 +13,10 @@
 4. Finish the weekly assessment or milestone
 5. Commit and deploy your work
 
+## Resources
+- [Lecture notes: How the Browser Parses, Paints, and Executes](../lectures/week-01-lecture.md)
+- [Chapter 1: Thinking in the Browser](../textbook/chapters/chapter-01-thinking-in-the-browser.md)
+- **Time estimate:** 6–8 hours (reading, lab, quiz)
+
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

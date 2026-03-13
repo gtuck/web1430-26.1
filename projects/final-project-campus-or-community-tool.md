@@ -96,15 +96,9 @@ The submitted live URL must load within 5 seconds on a standard connection. The 
 
 **Due:** End of Week 15 (same deadline as final submission)
 
-Submit `projects/final-project/reflection.md` addressing the following prompts. Write 6–10 sentences total.
+Submit `projects/final-project/reflection.md` using the [Course Reflection Prompt](../course/course-reflection-prompt.md). The prompt contains all five questions and the rubric. Write 6–10 sentences total, with specific, honest answers — not generalizations.
 
-1. **What did you build?** Describe the tool and its intended user in your own words.
-2. **What is the hardest technical problem you solved?** Walk through how you approached it.
-3. **What would you do differently if you started over?** Be specific — architecture, tools, design, or workflow.
-4. **What does "accessible" mean to you now that it didn't at the start of the course?** Give a concrete example from your project.
-5. **What are you most proud of in this project?**
-
-This reflection is graded separately from the project itself (see rubric below). A vague or single-sentence answer to each prompt does not meet the standard.
+This reflection is graded separately from the project itself (see rubric below).
 
 ---
 
@@ -130,6 +124,7 @@ This reflection is graded separately from the project itself (see rubric below).
 - `aria-live="polite"` on any region that updates dynamically
 - Color contrast: WCAG AA for all text
 - HTML validates with no errors at validator.w3.org
+- Manual screen reader test completed and documented (see [Screen Reader Testing Guide](../course/screen-reader-testing-guide.md))
 
 ### Deployment
 - Deployed via Netlify, Vercel, or GitHub Pages

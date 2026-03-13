@@ -77,6 +77,19 @@ assignments/assignment-5/
 
 Files that have no content for your specific app may be omitted, but at minimum you must have `main.js`, `api.js`, `render.js`, and `events.js` with appropriate content.
 
+You must also include:
+
+- **`constants.js`** — Exports every magic string in the project: API base URL, localStorage keys, CSS class names used in JavaScript, and any limit values. No string literals for these values should appear anywhere else in the codebase.
+- **`ARCHITECTURE.md`** — A short document (5–15 lines) inside `assignments/assignment-5/` that diagrams which files import from which. A plain-text diagram is fine:
+
+```
+main.js → events.js → api.js → constants.js
+                    → normalize.js
+                    → render.js → constants.js
+```
+
+Include one sentence explaining why the dependency direction you chose prevents circular imports.
+
 ---
 
 ## Module requirements
@@ -125,6 +138,8 @@ Before submitting, confirm:
 - [ ] `dist/` and `node_modules/` are absent from your git commit
 - [ ] Each `src/` file has a one-sentence comment at the top stating its responsibility
 - [ ] No file imports from a file it should not depend on (e.g., `render.js` does not import from `events.js`)
+- [ ] `constants.js` exists and all magic strings are imported from it — no raw string literals for URLs, keys, or class names elsewhere
+- [ ] `ARCHITECTURE.md` exists and accurately reflects the actual import graph of your project
 
 ---
 
@@ -137,6 +152,8 @@ Before submitting, confirm:
 ---
 
 ## Above baseline (stretch)
+
+Work in this section is reflected in the Excellent (4) column of the rubric.
 
 - Add a `constants.js` file that exports `API_BASE_URL` and any other magic strings, and import them wherever needed
 - Use `import.meta.env` to demonstrate environment-aware configuration (e.g., a different limit in development vs production)
@@ -168,7 +185,7 @@ Write 4–6 sentences addressing:
 
 | Criterion | Excellent (4) | Proficient (3) | Developing (2) | Incomplete (1) |
 |-----------|--------------|----------------|----------------|----------------|
-| **Module structure** | All four required files present with correct responsibilities; one-sentence comment at top of each | Three files with correct responsibilities | Two files; responsibilities mixed | Single file; no modules |
+| **Module structure** | All required files present (`main`, `api`, `normalize`, `render`, `events`, `constants`); one-sentence responsibility comment at top of each | Four of six files with correct responsibilities | Two or three files; responsibilities mixed | Single file; no modules |
 | **Export / import correctness** | All exports named; all imports explicit with correct relative paths; no accidental globals | Minor import issue (missing `.js` extension, incorrect path) | Imports partially working | Module syntax errors prevent running |
 | **Dependency direction** | `api.js` and `normalize.js` have no DOM access; `render.js` does not call fetch; `main.js` only initializes | One minor violation | Two violations | No separation of concerns |
 | **Vite workflow** | `npm run dev` works; `npm run build` succeeds; `node_modules/` and `dist/` in `.gitignore` | Dev works; build works; one gitignore omission | Dev works; build not attempted | `npm run dev` fails |

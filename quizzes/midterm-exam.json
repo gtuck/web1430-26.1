@@ -363,6 +363,102 @@
           "weight": 0
         }
       ]
+    },
+    {
+      "name": "defer-benefit",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer moves their <code>&lt;script defer src=\"app.js\"&gt;</code> from the bottom of <code>&lt;body&gt;</code> to <code>&lt;head&gt;</code>. What is the benefit?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "defer-benefit_a1",
+          "text": "The browser starts downloading the script earlier while HTML continues parsing, without blocking rendering",
+          "html": "<p>The browser starts downloading the script earlier while HTML continues parsing, without blocking rendering</p>",
+          "weight": 100
+        },
+        {
+          "id": "defer-benefit_a2",
+          "text": "The script now runs before the DOM is ready, which is faster",
+          "html": "<p>The script now runs before the DOM is ready, which is faster</p>",
+          "weight": 0
+        },
+        {
+          "id": "defer-benefit_a3",
+          "text": "defer causes the script to be cached permanently",
+          "html": "<p>defer causes the script to be cached permanently</p>",
+          "weight": 0
+        },
+        {
+          "id": "defer-benefit_a4",
+          "text": "Moving scripts to head is required for defer to work",
+          "html": "<p>Moving scripts to head is required for defer to work</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "innerhtml-xss",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>A developer writes <code>el.innerHTML = userInput</code> where userInput comes from a form field. What security risk does this introduce?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "innerhtml-xss_a1",
+          "text": "Cross-site scripting (XSS) — if userInput contains script tags or event attributes, they will execute in the browser",
+          "html": "<p>Cross-site scripting (XSS) &mdash; if userInput contains script tags or event attributes, they will execute in the browser</p>",
+          "weight": 100
+        },
+        {
+          "id": "innerhtml-xss_a2",
+          "text": "The element's existing children will be duplicated",
+          "html": "<p>The element&#x27;s existing children will be duplicated</p>",
+          "weight": 0
+        },
+        {
+          "id": "innerhtml-xss_a3",
+          "text": "innerHTML is slower than textContent by 100x",
+          "html": "<p>innerHTML is slower than textContent by 100x</p>",
+          "weight": 0
+        },
+        {
+          "id": "innerhtml-xss_a4",
+          "text": "The browser will block the assignment automatically",
+          "html": "<p>The browser will block the assignment automatically</p>",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "name": "array-method-output",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Given <code>const items = [{price: 5}, {price: 15}, {price: 3}]</code>, what does <code>items.filter(i => i.price > 4).length</code> return?</p>",
+      "points_possible": 1,
+      "answers": [
+        {
+          "id": "array-method-output_a1",
+          "text": "2",
+          "html": "<p>2</p>",
+          "weight": 100
+        },
+        {
+          "id": "array-method-output_a2",
+          "text": "3",
+          "html": "<p>3</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-method-output_a3",
+          "text": "1",
+          "html": "<p>1</p>",
+          "weight": 0
+        },
+        {
+          "id": "array-method-output_a4",
+          "text": "20",
+          "html": "<p>20</p>",
+          "weight": 0
+        }
+      ]
     }
   ]
 }
