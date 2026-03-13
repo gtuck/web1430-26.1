@@ -4,7 +4,7 @@
 - Theme: Framework Forms and Data Flow
 - Lecture: Component Communication, Reactive Forms, and Derived State
 - Lab: Lab 12 – Small Data Dashboard
-- Deliverables: Assignment 6
+- Deliverables: Assignment 6, Final Project Pitch, Final Project Wireframe and Data Plan
 
 ## Success plan
 1. Read the module overview and chapter
@@ -17,7 +17,8 @@
 - [Lecture notes: Component Communication, Reactive Forms, and Derived State](../lectures/week-13-lecture.md)
 - [Chapter 12: Introductory Component-Based Development](../textbook/chapters/chapter-12-introductory-component-based-development.md) (continued)
 - [Chapter 13: Accessibility Synthesis](../textbook/chapters/chapter-13-accessibility-synthesis.md) — WCAG conformance, ARIA patterns, focus management, prefers-reduced-motion, 3-minute manual audit checklist
-- **Time estimate:** 10–12 hours (reading, lab, Assignment 6)
+- [Final Project brief](../projects/final-project-campus-or-community-tool.md) — Milestone 1 pitch is due Monday; Milestone 2 wireframes and data plan are due Sunday.
+- **Time estimate:** 12–14 hours (reading, lab, Assignment 6, Final Project Milestones 1–2)
 
 ## Checkpoint question
 What is the smallest working example you can build this week that demonstrates the main idea clearly?

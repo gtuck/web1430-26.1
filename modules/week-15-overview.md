@@ -15,6 +15,7 @@
 
 ## Resources
 - [Lecture notes: Project Storytelling, Portfolio Readiness, and Next Steps](../lectures/week-15-lecture.md)
+- [Final Project brief](../projects/final-project-campus-or-community-tool.md) — Review Milestones 4 and 5 so the deployment, rationale, and reflection submissions stay aligned.
 - [Course Reflection Prompt](../course/course-reflection-prompt.md) — read this before your Final Studio session
 - No new chapter this week — focus is on final project and reflection
 - **Time estimate:** 10–14 hours (final studio, Final Project, Final Exam, Course Reflection)

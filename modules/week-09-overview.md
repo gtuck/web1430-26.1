@@ -16,6 +16,7 @@
 ## Resources
 - [Lecture notes: Promises, Fetch, Async/Await, and Failure States](../lectures/week-09-lecture.md)
 - [Chapter 9: Fetch, JSON, and Remote Data](../textbook/chapters/chapter-09-fetch-json-and-remote-data.md)
+- [API Troubleshooting Guide](../course/api-troubleshooting-guide.md) — Use this if your API response shape, null values, or rate limits slow down Assignment 4.
 - **Time estimate:** 10–12 hours (reading, lab, quiz, Assignment 4)
 
 ## Checkpoint question

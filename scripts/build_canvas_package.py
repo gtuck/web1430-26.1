@@ -36,9 +36,12 @@ ET.register_namespace("xsi", XSI_NS)
 NS = {"im": IMS_NS, "c": CANVAS_NS}
 
 PUBLISHED_COURSE_GUIDES = (
+    ROOT / "course" / "accessibility-fundamentals-primer.md",
     ROOT / "course" / "api-troubleshooting-guide.md",
     ROOT / "course" / "course-reflection-prompt.md",
     ROOT / "course" / "screen-reader-testing-guide.md",
+    ROOT / "course" / "student-survey-week-05.md",
+    ROOT / "course" / "student-survey-week-11.md",
 )
 
 FIXED_ZIP_TIMESTAMP = (2026, 3, 13, 0, 0, 0)

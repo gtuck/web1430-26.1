@@ -28,7 +28,7 @@
 ## Week 05: Arrays, Objects, and Data Modeling
 - Lecture: Collections, Objects, Methods, and JSON Thinking
 - Lab: Lab 05 – Build a Product Data Explorer
-- Deliverables: Quiz 3, Project 1 Proposal
+- Deliverables: Quiz 3, Project 1 Proposal, Mid-Course Check-In Survey
 
 ## Week 06: DOM Fundamentals
 - Lecture: Selecting, Creating, Updating, and Removing Elements
@@ -58,7 +58,7 @@
 ## Week 11: Tooling and Modular JavaScript
 - Lecture: File Organization, ES Modules, and Build Tooling
 - Lab: Lab 10 – Convert a Script Bundle into Modules
-- Deliverables: Assignment 5
+- Deliverables: Assignment 5, Late-Course Check-In Survey
 
 ## Week 12: Component Thinking with Vue
 - Lecture: Props, State, Templates, and Simple Components
@@ -68,12 +68,12 @@
 ## Week 13: Framework Forms and Data Flow
 - Lecture: Component Communication, Reactive Forms, and Derived State
 - Lab: Lab 12 – Small Data Dashboard
-- Deliverables: Assignment 6
+- Deliverables: Assignment 6, Final Project Pitch, Final Project Wireframe and Data Plan
 
 ## Week 14: Testing, Performance, and Deployment
 - Lecture: Quality Checks, Accessibility Audits, and Shipping to the Web
 - Lab: Lab 13 – Lighthouse, Accessibility, and Deployment
-- Deliverables: Quiz 8, Project 2
+- Deliverables: Quiz 8, Project 2, Final Project Beta Review
 
 ## Week 15: Final Project Sprint and Reflection
 - Lecture: Project Storytelling, Portfolio Readiness, and Next Steps
