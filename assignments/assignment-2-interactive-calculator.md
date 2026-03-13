@@ -1,6 +1,6 @@
 # Assignment 2 – Interactive Calculator
 
-**Due:** End of Week 5
+**Due:** End of Week 4
 **Weight:** One of six assignments (20% combined)
 **Skills:** JavaScript variables, conditionals, functions, form input, DOM output, defensive input handling
 

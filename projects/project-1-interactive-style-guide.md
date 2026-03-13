@@ -1,6 +1,6 @@
 # Project 1 – Interactive Style Guide
 
-**Due:** End of Week 8 (three milestones across Weeks 6–8)
+**Due:** End of Week 8 (three milestones across Weeks 5, 7, and 8)
 **Weight:** Part of Projects (30% of course grade)
 **Skills:** CSS custom properties, design tokens, semantic HTML, DOM manipulation, accessible interactive patterns, file organization
 
@@ -22,7 +22,7 @@ You have been hired to build the front-end foundation for a fictional product, o
 
 ## Milestone 1 — Proposal
 
-**Due:** End of Week 6
+**Due:** End of Week 5
 
 Submit a `proposal.md` file in `projects/project-1/` containing:
 

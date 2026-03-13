@@ -14,3 +14,5 @@ This course includes an original textbook written for the flow of WEB 1430.
 - Chapter 10: Storage, Preferences, and State
 - Chapter 11: Modules, NPM, and Vite
 - Chapter 12: Introductory Component-Based Development
+- Chapter 13: Accessibility Synthesis
+- Chapter 14: Performance, Testing, and Deployment

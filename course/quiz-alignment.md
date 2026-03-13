@@ -1,268 +1,262 @@
 # Quiz Alignment Document
 
-This document maps each quiz and exam to the week it is administered, the textbook chapter(s) it covers, the specific learning outcomes it addresses, and the number of questions by type.
+This document maps the current assessment source files in `quizzes/` to the week they are administered, the chapter range they cover, the learning outcomes they assess, and the number of questions currently present in each JSON file.
 
-Use this document to verify assessment coverage, identify outcome gaps, or revise quiz content efficiently.
+All current assessment source files use **1 point per question**, so each assessment's `points` value now matches its question count.
 
 ---
 
-## Summary table
+## Summary Table
 
-| Assessment | Week | Chapter(s) | Learning Outcomes | Questions |
-|-----------|------|-----------|-------------------|-----------|
-| Quiz 1 | 01 | Ch 1 | Browser internals, DevTools | 10 MC/TF + 2 application |
-| Quiz 2 | 03 | Ch 3 | JS syntax, types, debugging | 10 MC/TF + 2 application |
-| Quiz 3 | 05 | Ch 4–5 | Control flow, arrays, objects | 10 MC/TF + 2 application |
-| Quiz 4 | 07 | Ch 6–7 | DOM, events, forms | 10 MC/TF + 2 application |
-| Midterm | 08 | Ch 1–7 | All outcomes through Week 07 | 30 MC/TF + 5 application |
-| Quiz 5 | 09 | Ch 9 | Fetch, async/await, failure states | 10 MC/TF + 2 application |
-| Quiz 6 | 10 | Ch 10 | localStorage, sessionStorage, state | 10 MC/TF + 2 application |
-| Quiz 7 | 12 | Ch 11–12 | Modules, Vite, Vue basics | 10 MC/TF + 2 application |
-| Quiz 8 | 14 | Ch 9–12 | Integration: async + storage + modules + Vue | 10 MC/TF + 2 application |
-| Final Exam | 15 | Ch 1–12 | Cumulative; weighted toward Ch 9–12 | 40 MC/TF + 8 application |
+| Assessment | Week | Chapter(s) | Questions / Points | Primary Topics |
+|-----------|------|-----------|--------------------|----------------|
+| Quiz 1 | 01 | Ch 1 | 7 / 7 | Browser layers, progressive enhancement, DevTools, render-blocking scripts |
+| Quiz 2 | 03 | Ch 3 | 8 / 8 | Variables, equality, template literals, coercion, debugging |
+| Quiz 3 | 05 | Ch 4–5 | 7 / 7 | Objects, JSON, array methods, property access, `map()` / `filter()` |
+| Quiz 4 | 07 | Ch 6–7 | 5 / 5 | DOM selection, event listeners, preventDefault, accessible feedback |
+| Midterm Exam | 08 | Ch 1–7 | 15 / 15 | HTML/CSS foundations, JS fundamentals, DOM, events, validation, Git workflow |
+| Quiz 5 | 09 | Ch 9 | 7 / 7 | `fetch()`, `.json()`, `async/await`, loading states, `response.ok` |
+| Quiz 6 | 10 | Ch 10 | 7 / 7 | `localStorage`, `sessionStorage`, serialization, persistence gotchas |
+| Quiz 7 | 12 | Ch 11–12 | 7 / 7 | ES modules, Vite, Vue components, props, refs, imports |
+| Quiz 8 | 14 | Ch 13–14 | 7 / 7 | Lighthouse, alt text, accessibility failures, performance, deployment |
+| Final Exam | 15 | Ch 1–14 | 17 / 17 | Cumulative; stronger emphasis on async/state, modules/Vue, accessibility, deployment |
 
 ---
 
 ## Quiz 1 — Week 01
 
-**Covers:** Chapter 1 – Thinking in the Browser
-**Administered:** End of Week 01
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapter 1 – Thinking in the Browser  
+**Administered:** End of Week 01  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
 - Use browser developer tools to inspect, debug, and improve client-side code
-- Understand the client-side layer model (HTML/CSS/JS separation)
+- Build a correct mental model of HTML, CSS, JavaScript, and DOM behavior in the browser
 
 **Topic checklist:**
-- [ ] HTTP request/response cycle (status codes)
-- [ ] DOM construction from HTML parsing
-- [ ] Render tree (DOM + CSSOM)
-- [ ] Why `<script>` placement matters
-- [ ] `defer` vs `async` distinction
-- [ ] DevTools: Elements, Console, Network tabs
-
-**Sample application questions:**
-- *"A developer places `<script src="app.js"></script>` inside `<head>` without any attributes. What is the likely consequence? (A) The script is ignored. (B) HTML parsing pauses until the script downloads and executes. (C) The script runs after all CSS is loaded. (D) The script runs asynchronously."*
-- *"A student inspects their page in DevTools Elements panel and sees a `<p>` element that does not exist in their HTML source file. What is the most likely explanation?"*
+- [ ] HTML structure vs CSS presentation
+- [ ] Progressive enhancement
+- [ ] DOM generation from HTML
+- [ ] DevTools for live inspection
+- [ ] Render-blocking script placement
+- [ ] Elements panel vs source view
 
 ---
 
 ## Quiz 2 — Week 03
 
-**Covers:** Chapter 3 – JavaScript Syntax, Values, and Expressions
-**Administered:** End of Week 03
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapter 3 – JavaScript Syntax, Values, and Expressions  
+**Administered:** End of Week 03  
+**Current format:** 8 selected-response questions, 8 points
 
 **Learning outcomes addressed:**
-- Write readable JavaScript using variables, control flow, functions, arrays, objects, and modules
+- Write readable JavaScript using variables, expressions, and basic debugging techniques
+- Use browser developer tools to inspect values while code runs
 
 **Topic checklist:**
-- [ ] `const` vs `let` (and why not `var`)
-- [ ] Primitive types: string, number, boolean, null, undefined
-- [ ] `typeof` output (including `typeof null === 'object'` quirk)
-- [ ] `===` vs `==` (strict vs loose equality)
-- [ ] Type coercion with `+` operator
+- [ ] `const`
+- [ ] Strict equality
 - [ ] Template literals
-- [ ] `NaN` and `isNaN()`
-
-**Sample application questions:**
-- *"What does `console.log(1 + '2')` output? (A) 3  (B) '12'  (C) NaN  (D) A TypeError"*
-- *"A developer writes `if (userAge == '28')`. What is the risk? (A) It always returns false. (B) It uses type coercion and may match unexpected values. (C) The `if` statement is missing braces. (D) It throws a SyntaxError."*
+- [ ] Array indexing
+- [ ] `console.log()`
+- [ ] Type coercion
+- [ ] Loose-equality risk
+- [ ] DevTools-based debugging
 
 ---
 
 ## Quiz 3 — Week 05
 
-**Covers:** Chapter 4 – Decisions, Loops, and Reusable Logic; Chapter 5 – Modeling Information in JavaScript
-**Administered:** End of Week 05
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapters 4–5 – Decisions, Loops, and Reusable Logic; Modeling Information in JavaScript  
+**Administered:** End of Week 05  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
-- Write readable JavaScript using variables, control flow, functions, arrays, objects, and modules
+- Write readable JavaScript using control flow, arrays, objects, and JSON
 
 **Topic checklist:**
-- [ ] `if/else`, `switch` statements
-- [ ] `for` and `while` loops
-- [ ] Function declarations vs expressions vs arrow functions
-- [ ] Return values and pure functions
-- [ ] Block scope vs function scope
-- [ ] Array literals, index access, `.length`
-- [ ] `.map()`, `.filter()`, `.find()`, `.forEach()`
-- [ ] Object literals, dot notation, destructuring
-- [ ] `JSON.stringify` / `JSON.parse`
-
-**Sample application questions:**
-- *"Given `const prices = [10, 25, 5, 40]`, which expression produces `[20, 50, 10, 80]`? (A) `prices.filter(p => p * 2)` (B) `prices.map(p => p * 2)` (C) `prices.forEach(p => p * 2)` (D) `prices.find(p => p * 2)`"*
-- *"What does `.filter()` return when no elements match the condition? (A) `null` (B) `undefined` (C) An empty array `[]` (D) `false`"*
+- [ ] Object purpose
+- [ ] JSON as a data format
+- [ ] Array methods
+- [ ] Mutation vs non-mutation
+- [ ] Property access
+- [ ] `map()` vs `filter()`
+- [ ] Empty array results
 
 ---
 
 ## Quiz 4 — Week 07
 
-**Covers:** Chapter 6 – The Document Object Model; Chapter 7 – Event-Driven Interfaces and Forms
-**Administered:** End of Week 07
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapters 6–7 – The Document Object Model; Event-Driven Interfaces and Forms  
+**Administered:** End of Week 07  
+**Current format:** 5 selected-response questions, 5 points
 
 **Learning outcomes addressed:**
 - Manipulate the DOM to create interactive interfaces that respond to user events
 - Design and validate accessible forms that provide clear feedback and error recovery
 
 **Topic checklist:**
-- [ ] `querySelector` vs `querySelectorAll`
-- [ ] `createElement`, `textContent` vs `innerHTML` (XSS risk)
-- [ ] `classList.add`, `.remove`, `.toggle`
-- [ ] `addEventListener` (click, submit, change, input, blur)
+- [ ] Element selection
+- [ ] Event listeners
+- [ ] Accessible feedback patterns
 - [ ] `event.preventDefault()`
-- [ ] `event.target` vs `event.currentTarget`
-- [ ] Event delegation
-- [ ] `aria-invalid`, `aria-describedby`, `aria-live`
-
-**Sample application questions:**
-- *"A developer writes `el.innerHTML = userInput`. What security risk does this introduce? (A) Memory leaks. (B) Cross-site scripting (XSS) — the user's input may contain executable script tags. (C) The element's existing children are preserved unnecessarily. (D) `innerHTML` is slower than `textContent`."*
-- *"Which ARIA attribute should be set to `true` on a form input when it fails validation? (A) `aria-required` (B) `aria-live` (C) `aria-invalid` (D) `aria-disabled`"*
+- [ ] UI state as the source of rendered behavior
 
 ---
 
 ## Midterm Exam — Week 08
 
-**Covers:** Chapters 1–7 (cumulative through Week 07)
-**Administered:** Week 08
-**Format:** 30 multiple-choice / true-false + 5 application questions
+**Covers:** Chapters 1–7 (cumulative through Week 07)  
+**Administered:** Week 08  
+**Current format:** 15 selected-response questions, 15 points  
 **Time limit:** 60 minutes
 
-**Learning outcomes addressed:** All outcomes through Week 07:
-- Browser DevTools and the render pipeline
-- JS syntax, types, control flow, functions
-- Data modeling with arrays and objects
-- DOM manipulation
-- Event handling and accessible form design
+**Learning outcomes addressed:**
+- Browser DevTools and render-pipeline fundamentals
+- Responsive semantic markup foundations
+- JavaScript syntax, control flow, functions, arrays, and objects
+- DOM manipulation, events, validation, and interface safety
+- Git/GitHub workflow habits
 
-**Weight distribution:** Approximately 15 questions on HTML/CSS/browser (Ch 1–2), 10 questions on JS fundamentals (Ch 3–5), 10 questions on DOM and events (Ch 6–7).
+**Topic checklist:**
+- [ ] Semantic HTML
+- [ ] Mobile-first thinking
+- [ ] Function reuse
+- [ ] Truthy/falsy values
+- [ ] Objects and JSON
+- [ ] Safe DOM updates
+- [ ] Event targeting
+- [ ] Validation patterns
+- [ ] Scope
+- [ ] Commit-message workflow
+- [ ] `defer`
+- [ ] `innerHTML` / XSS risk
+- [ ] Array method output tracing
 
 ---
 
 ## Quiz 5 — Week 09
 
-**Covers:** Chapter 9 – Fetch, JSON, and Remote Data
-**Administered:** End of Week 09
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapter 9 – Fetch, JSON, and Remote Data  
+**Administered:** End of Week 09  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
 - Exchange data with external services using JSON and the Fetch API
 
 **Topic checklist:**
-- [ ] Why async exists (single-threaded JavaScript)
-- [ ] Promise states: pending, fulfilled, rejected
-- [ ] `async/await` syntax
-- [ ] `fetch()` return value and the two-step pattern (`.json()`)
-- [ ] `response.ok` check
-- [ ] `try/catch/finally`
-- [ ] Four UI states: loading, success, error, empty
-- [ ] `aria-live` for async content
-
-**Sample application questions:**
-- *"After `const res = await fetch(url)`, a developer immediately calls `const data = await res.json()`. What is missing? (A) `await` should not be used with `.json()`. (B) The developer should check `res.ok` before calling `.json()` to handle HTTP errors. (C) `res.json()` does not return a Promise. (D) Nothing is missing."*
+- [ ] `fetch()` return value
+- [ ] `response.json()`
+- [ ] `async/await`
+- [ ] Error handling
+- [ ] Loading states
+- [ ] `response.ok`
+- [ ] Why 404 responses do not automatically reject
 
 ---
 
 ## Quiz 6 — Week 10
 
-**Covers:** Chapter 10 – Storage, Preferences, and State
-**Administered:** End of Week 10
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapter 10 – Storage, Preferences, and State  
+**Administered:** End of Week 10  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
 - Persist client-side state with local storage and session storage when appropriate
 
 **Topic checklist:**
-- [ ] `localStorage` vs `sessionStorage` (persistence scope)
-- [ ] `setItem`, `getItem`, `removeItem`, `clear`
-- [ ] Storage stores strings only — JSON round-trip required for objects
-- [ ] Boolean-as-string gotcha (`"false"` is truthy)
-- [ ] Storage limits (~5 MB per origin)
-- [ ] When to use each storage type
-
-**Sample application questions:**
-- *"A developer stores `localStorage.setItem('active', false)` and later reads `if (localStorage.getItem('active'))`. What happens? (A) The condition is false, as expected. (B) The condition is true, because `localStorage` stores the string `'false'`, which is truthy. (C) A TypeError is thrown. (D) `getItem` returns `null`."*
+- [ ] `localStorage`
+- [ ] Persistence after browser close
+- [ ] `sessionStorage`
+- [ ] State as a UI model
+- [ ] Serialization for stored objects
+- [ ] Boolean-string gotcha
+- [ ] Persistence scope
 
 ---
 
 ## Quiz 7 — Week 12
 
-**Covers:** Chapter 11 – Modules, npm, and Vite; Chapter 12 – Introductory Component-Based Development
-**Administered:** End of Week 12
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapters 11–12 – Modules, npm, and Vite; Introductory Component-Based Development  
+**Administered:** End of Week 12  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
 - Write readable JavaScript using modules
 - Apply introductory component-based thinking with a modern JavaScript framework
 
 **Topic checklist:**
-- [ ] Named exports vs default exports
-- [ ] Import syntax with relative paths
-- [ ] Module scope (no global leakage)
-- [ ] What Vite provides: dev server, HMR, build step
-- [ ] Vue SFC structure: `<script setup>`, `<template>`, `<style>`
-- [ ] `ref()` and `.value`
-- [ ] Template directives: `v-for`, `v-if`, `v-bind`, `v-on`
-- [ ] `defineProps`
-
-**Sample application questions:**
-- *"In a Vue `<script setup>` component, a developer declares `const count = ref(0)` but writes `count = count + 1` in a click handler. What is the problem? (A) `ref` values are read-only. (B) `ref` values must be updated via `.value`: `count.value = count.value + 1`. (C) Arrow functions cannot modify reactive values. (D) `ref` is not available in `<script setup>`."*
+- [ ] ES module purpose
+- [ ] Vite role
+- [ ] Vue component model
+- [ ] Reactive state
+- [ ] Props
+- [ ] `ref().value`
+- [ ] Named export imports
 
 ---
 
 ## Quiz 8 — Week 14
 
-**Covers:** Integration review — Chapters 9–12 (async, storage, modules, Vue)
-**Administered:** End of Week 14
-**Format:** 10 multiple-choice / true-false + 2 application questions
+**Covers:** Chapters 13–14 – Accessibility Synthesis; Performance, Testing, and Deployment  
+**Administered:** End of Week 14  
+**Current format:** 7 selected-response questions, 7 points
 
 **Learning outcomes addressed:**
-- Exchange data with external services using JSON and the Fetch API
-- Persist client-side state with local storage and session storage
-- Write readable JavaScript using modules
-- Apply introductory component-based thinking with a modern JavaScript framework
+- Design and validate accessible interfaces
+- Plan, test, and deploy polished client-side work
 
 **Topic checklist:**
-- [ ] Lighthouse score categories and what affects each
-- [ ] Common accessibility failures (missing alt, unlabeled inputs, low contrast)
-- [ ] GitHub Pages deployment steps
-- [ ] Props-down / events-up pattern in Vue
-- [ ] `defineEmits` and `v-model` on components
-- [ ] `computed()` for derived state
+- [ ] Lighthouse categories
+- [ ] Alt text purpose
+- [ ] Production vs local verification
+- [ ] Asset optimization
+- [ ] Final QA checks
+- [ ] Common Lighthouse accessibility failures
+- [ ] Vite base-path configuration for GitHub Pages
 
 ---
 
 ## Final Exam — Week 15
 
-**Covers:** Chapters 1–12 (cumulative); weighted toward Chapters 9–12
-**Administered:** Week 15
-**Format:** 40 multiple-choice / true-false + 8 application questions
+**Covers:** Chapters 1–14 (cumulative), with stronger emphasis on later-course integration topics  
+**Administered:** Week 15  
+**Current format:** 17 selected-response questions, 17 points  
 **Time limit:** 90 minutes
 
 **Learning outcomes addressed:** All 10 course learning outcomes.
 
-**Weight distribution:**
-- Ch 1–2 (browser, HTML/CSS): ~8 questions
-- Ch 3–7 (JS fundamentals, DOM, events): ~12 questions
-- Ch 9–10 (async, storage): ~10 questions
-- Ch 11–12 (modules, Vue): ~10 questions
-- Application questions: 8 code-reading or scenario-based, spanning all topic areas
+**Topic checklist:**
+- [ ] Front-end architecture and progressive enhancement
+- [ ] Form UX
+- [ ] Async state models
+- [ ] Robust API rendering
+- [ ] Storage choice
+- [ ] Modules and dependency direction
+- [ ] Components, props, and data flow
+- [ ] Accessibility fundamentals
+- [ ] Performance habits
+- [ ] Deployment verification
+- [ ] `.gitignore` purpose
+- [ ] Render-blocking and Lighthouse
 
 ---
 
-## Coverage gaps
+## Coverage Snapshot
 
-| Learning Outcome | Directly assessed in quiz? | Notes |
-|-----------------|---------------------------|-------|
-| Browser DevTools / debugging | Quiz 1, Midterm | Lab 01, Lab 03 provide practice |
-| Responsive semantic HTML | Midterm only | Assignment 1 is the primary assessment vehicle |
-| Readable JavaScript | Quizzes 2–4, Midterm, Final | Strong coverage |
-| DOM manipulation | Quiz 4, Midterm | Lab 06 and Assignment 3 provide practice |
-| Accessible form design | Quiz 4, Midterm | Lab 07 dedicated; stronger in labs than quizzes |
-| Fetch / JSON / APIs | Quiz 5, Quiz 8, Final | Strong coverage |
-| localStorage / state | Quiz 6, Final | Only one dedicated quiz; Lab 09 and Project 2 carry more weight |
-| Component-based thinking | Quiz 7, Quiz 8, Final | Coverage adequate given two weeks of Vue |
-| Git / GitHub workflow | Not directly quizzed | Assessed through commit history on all submissions |
-| Plan, build, test, present | Not quizzed | Assessed through project milestones and rationale documents |
+| Learning Outcome | Direct Assessment Coverage | Notes |
+|-----------------|----------------------------|-------|
+| Browser DevTools / debugging | Quiz 1, Quiz 2, Midterm | Also practiced in Lab 01 and Lab 03 |
+| Responsive semantic HTML | Quiz 1, Midterm, Final | Assignment 1 remains the primary applied measure |
+| Readable JavaScript | Quizzes 2–3, Midterm, Final | Strong concept coverage plus applied work |
+| DOM manipulation | Quiz 4, Midterm, Final | Reinforced in Lab 06 and Assignment 3 |
+| Accessible form design | Quiz 4, Quiz 8, Final | Stronger direct performance evidence in labs/assignments |
+| Fetch / JSON / APIs | Quiz 5, Final | Applied heavily in Assignment 4 and Project 2 |
+| localStorage / state | Quiz 6, Final | Reinforced in Lab 09 and Project 2 |
+| Component-based thinking | Quiz 7, Final | Assignment 6 provides applied evidence |
+| Git / GitHub workflow | Midterm, Final | Also enforced through repo-based submissions |
+| Plan, build, test, present | Quiz 8, Final | Major project milestones remain the main evidence |
+
+## Note on Item Types
+
+The current source files store all quiz and exam items as selected-response questions. Scenario-based or application-style prompts are embedded as multiple-choice items rather than separated into a distinct free-response question type.

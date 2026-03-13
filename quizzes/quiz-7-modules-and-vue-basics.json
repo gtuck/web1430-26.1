@@ -2,7 +2,7 @@
   "slug": "quiz-7-modules-and-vue-basics",
   "title": "Quiz 7 \u2013 Modules and Vue Basics",
   "group": "Quizzes",
-  "points": 10,
+  "points": 7,
   "questions": [
     {
       "name": "ES modules",

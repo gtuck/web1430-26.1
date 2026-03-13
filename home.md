@@ -10,7 +10,7 @@ By the end of the term, you will be able to plan, build, debug, test, and presen
 
 - Start Here module
 - 15 weekly learning modules
-- Original course textbook with 12 chapters
+- Original course textbook with 14 chapters
 - Labs, quizzes, assignments, two major projects, and a final project
 - Midterm and final exam
 - GitHub-based workflow and Canvas delivery

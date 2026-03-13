@@ -1,6 +1,6 @@
 # Assignment 3 – DOM Pattern Library
 
-**Due:** End of Week 8 (Midterm Week)
+**Due:** End of Week 6
 **Weight:** One of six assignments (20% combined)
 **Skills:** DOM selection, class toggling, event delegation, createElement, accessible interactive patterns
 

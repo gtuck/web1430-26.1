@@ -1,6 +1,6 @@
 # Assignment 4 – API Data Story
 
-**Due:** End of Week 10
+**Due:** End of Week 9
 **Weight:** One of six assignments (20% combined)
 **Skills:** Fetch API, async/await, error handling, loading states, data normalization, DOM rendering from remote data
 

@@ -2,7 +2,7 @@
   "slug": "midterm-exam",
   "title": "Midterm Exam",
   "group": "Exams",
-  "points": 50,
+  "points": 15,
   "questions": [
     {
       "name": "Semantic HTML",

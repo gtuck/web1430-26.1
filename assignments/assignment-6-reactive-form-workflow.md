@@ -1,6 +1,6 @@
 # Assignment 6 – Reactive Form Workflow
 
-**Due:** End of Week 14
+**Due:** End of Week 13
 **Weight:** One of six assignments (20% combined)
 **Skills:** Vue 3 Composition API, `ref`, `computed`, `v-model`, `v-if`, component decomposition, reactive form validation, accessible state communication
 

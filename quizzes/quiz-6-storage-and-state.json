@@ -2,7 +2,7 @@
   "slug": "quiz-6-storage-and-state",
   "title": "Quiz 6 \u2013 Storage and State",
   "group": "Quizzes",
-  "points": 10,
+  "points": 7,
   "questions": [
     {
       "name": "localStorage",

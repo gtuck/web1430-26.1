@@ -1,6 +1,6 @@
 # Assignment 5 – Modular Refactor
 
-**Due:** End of Week 12
+**Due:** End of Week 11
 **Weight:** One of six assignments (20% combined)
 **Skills:** ES modules, named exports/imports, Vite dev server and build, file organization by responsibility, dependency direction
 

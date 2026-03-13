@@ -1,6 +1,6 @@
 # Project 2 – Data-Driven Micro-App
 
-**Due:** End of Week 12 (three milestones across Weeks 10–12)
+**Due:** End of Week 14 (three milestones across Weeks 10, 12, and 14)
 **Weight:** Part of Projects (30% of course grade)
 **Skills:** Fetch API, async/await, error handling, localStorage, ES modules, Vite, file organization by responsibility
 
@@ -56,9 +56,9 @@ The proposal will be reviewed against the problem statement first. If the proble
 
 ## Milestone 2 — Build Checkpoint
 
-**Due:** End of Week 11
+**Due:** End of Week 12
 
-Milestone 2 must represent a substantially complete application. Week 12 is for polish, accessibility review, and deployment — not core feature development. An incomplete Milestone 2 means an incomplete final submission.
+Milestone 2 must represent a substantially complete application. Weeks 13 and 14 are for polish, accessibility review, deployment, and final quality checks — not initial scaffolding. An incomplete Milestone 2 means an incomplete final submission.
 
 A deployed version with **all of the following**:
 
@@ -77,7 +77,7 @@ Submit live URL and repo URL. Include a `checkpoint.md` note (3–5 sentences) c
 
 ## Milestone 3 — Final Submission
 
-**Due:** End of Week 12
+**Due:** End of Week 14
 
 ---
 

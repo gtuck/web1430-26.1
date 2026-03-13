@@ -4,14 +4,14 @@ This repository contains a fully rebuilt, online-first **WEB 1430** course packa
 
 ## Included
 
-- original textbook with 12 chapters
+- original textbook with 14 chapters
 - weekly lecture notes and module overviews
 - labs
 - assignments
 - projects
 - quizzes and exams in Canvas-compatible QTI/Common Cartridge structure
 - Canvas course export package (`canvas/WEB1430-Canvas-Export.imscc`)
-- rebuild script in `scripts/build_canvas_package.py`
+- expanded Canvas package snapshot (`canvas/expanded_package/`)
 
 ## Repository structure
 
@@ -24,7 +24,7 @@ This repository contains a fully rebuilt, online-first **WEB 1430** course packa
 - `projects/` – project briefs
 - `quizzes/` – source JSON for quiz content
 - `canvas/` – exploded package and importable IMSCC
-- `scripts/` – build script
+- `scripts/` – Canvas build/export note
 
 ## Suggested GitHub publishing steps
 
